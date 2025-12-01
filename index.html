@@ -1,56 +1,69 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Auto Zubehör Shop – Kostenlos</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Decoration Shop</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header>
-    <h1>Auto Zubehör – Alles für dein Auto</h1>
-    <nav>
-      <a href="#produkte">Produkte</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Welcome to Our Car Decoration Shop!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop/air-fresheners.html">Air Fresheners</a></li>
+                <li><a href="shop/seat-covers.html">Seat Covers</a></li>
+                <li><a href="shop/steering-wheel-covers.html">Steering Wheel Covers</a></li>
+                <!-- Add more categories here -->
+            </ul>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <h2>Finde das beste Zubehör für dein Auto – 100% kostenlos präsentierbar!</h2>
-    <p>Fußmatten, LED-Lichter, Pflegeprodukte und vieles mehr.</p>
-  </section>
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <a href="shop/air-fresheners.html"><img src="img/air-fresheners/product1.jpg" alt="Air Freshener 1"></a>
+                    <h3>Air Freshener 1</h3>
+                    <p>Description of air freshener 1.</p>
+                    <p class="price">$9.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <a href="shop/seat-covers.html"><img src="img/seat-covers/product1.jpg" alt="Seat Cover 1"></a>
+                    <h3>Seat Cover 1</h3>
+                    <p>Description of seat cover 1.</p>
+                    <p class="price">$29.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <a href="shop/steering-wheel-covers.html"><img src="img/steering-wheel-covers/product1.jpg" alt="Steering Wheel Cover 1"></a>
+                    <h3>Steering Wheel Cover 1</h3>
+                    <p>Description of steering wheel cover 1.</p>
+                    <p class="price">$14.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more featured products here -->
+            </div>
+        </section>
 
-  <section id="produkte" class="produkte">
-    <h2>Beliebte Produkte</h2>
+        <section class="categories">
+            <h2>Shop by Category</h2>
+            <ul>
+                <li><a href="shop/air-fresheners.html">Air Fresheners</a></li>
+                <li><a href="shop/seat-covers.html">Seat Covers</a></li>
+                <li><a href="shop/steering-wheel-covers.html">Steering Wheel Covers</a></li>
+                <!-- Add more categories here -->
+            </ul>
+        </section>
+    </main>
 
-    <div class="grid">
+    <footer>
+        <p>&copy; 2025 Car Decoration Shop</p>
+    </footer>
 
-      <div class="karte">
-        <img src="fussmatten.jpg" alt="Fußmatten">
-        <h3>Premium Fußmatten</h3>
-        <p>Rutschfest, waschbar, alle Fahrzeugtypen.</p>
-      </div>
-
-      <div class="karte">
-        <img src="led.jpg" alt="LED Licht">
-        <h3>LED Innenraumlicht</h3>
-        <p>Hell, langlebig und leicht zu installieren.</p>
-      </div>
-
-      <div class="karte">
-        <img src="pflegeset.jpg" alt="Pflegeset">
-        <h3>Auto Pflege Set</h3>
-        <p>Reiniger, Schwamm und Mikrofasertuch.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <footer id="kontakt">
-    <p>Kontakt: deine-email@example.com</p>
-    <p>© 2025 Auto Zubehör</p>
-  </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
